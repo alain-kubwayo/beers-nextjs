@@ -1,11 +1,19 @@
+import Link from "next/link";
+
 const Navbar = () => {
   return (
-    <nav>
-      <h1>UniFinder</h1>
-      <ul>
-        <li>All Universities</li>
-      </ul>
-    </nav>
+    <div className="navigation-section">
+      <nav className="container">
+        <Link href="/">
+          <h1>AlainBrewery</h1>
+        </Link>
+        <ul>
+          <Link href="/beers">
+            <li>All Beers</li>
+          </Link>
+        </ul>
+      </nav>
+    </div>
   );
 };
 

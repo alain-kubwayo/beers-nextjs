@@ -1,0 +1,22 @@
+.homeSection {
+  padding: 2rem 0;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.mainDesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 879px) {
+  .main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

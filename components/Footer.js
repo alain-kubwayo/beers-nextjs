@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
     <div className="footer-section">
-      <footer>
-        <p>UniFinder</p>
+      <footer className="container">
+        <p>AlainBrewery</p>
         <ul>
           <li>&copy; 2022</li>
           <li>Terms of Use</li>

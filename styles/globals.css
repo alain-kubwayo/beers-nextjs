@@ -14,24 +14,33 @@ body {
   margin-right: auto;
 }
 
+.navigation-section {
+  background: #e1b12c;
+  color: #192a56;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
-  background: #e1b12c;
-  color: #192a56;
 }
 
 nav ul {
   list-style-type: none;
 }
 
+.footer-section {
+  background: #192a56;
+  color: #dcdde1;
+  position: sticky;
+  bottom: 0;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
-  background: #192a56;
-  color: #dcdde1;
   padding: 2rem 0;
 }
+
 footer ul {
   display: flex;
   list-style-type: none;
